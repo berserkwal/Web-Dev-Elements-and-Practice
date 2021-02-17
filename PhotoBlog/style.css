@@ -52,22 +52,3 @@ nav span {
 	/* z-index: -1; */
 	/* margin-left: -2; */
 }
-
-section {
-	width: 75%;
-}
-
-aside {
-	z-index: -2;
-	position: fixed;
-	display: inline;
-	background-color: #0f111a;
-	color: #f3f3f3;
-	font-family: sans-serif;
-	/* text-align: right; */
-	width: 25%;
-	height: 100%;
-	right: 0px;
-	top: 10%;
-	padding: 3%;
-}
