@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: #0f111a;
+}
+
+button {
+	font-family: "Roboto", sans-serif;
+	font-size: 1em;
+	border: 2px lightgreen solid;
+	background: none;
+	color: lightgreen;
+	padding: 1em 2em;
+	transition: transform 0.2s, color 0.2s;
+}
+
+button:hover {
+	color: lightsalmon;
+	border-color: lightsalmon;
+	transform: translatey(-0.25em);
+	box-shadow: 0 0.5em 0.5em -0.4em lightsalmon;
+	cursor: pointer;
+	transition: none;
+}
+
+button:active {
+	transform: scale(0.99);
+}

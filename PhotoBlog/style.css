@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #090b10;
+}
+
+img {
+	width: 30%;
+	margin: calc(10% / 6);
+}
+.nav-container {
+	position: sticky;
+	/* border-bottom: 1px #f3f3f3 solid; */
+	background: #0f111a;
+	box-shadow: 0 0.5em 1em hsla(0, 0%, 7%, 0.37);
+	/* width: 100vw; */
+	height: max-content;
+	top: 0;
+	left: 0;
+}
+nav {
+	/* text-transform: uppercase; */
+	/* position: inherit; */
+
+	width: 30%;
+	margin: 0 calc(10% / 6);
+	padding: 1em 0;
+	font-family: "Fira Code", sans-serif;
+	font-size: 1.3em;
+	color: #f3f3f3;
+}
+
+.van {
+	background-color: indianred;
+	width: fit-content;
+	padding: 5px 0px 5px 5px;
+	display: inline;
+}
+
+nav span {
+	/* position: relative; */
+	background-color: #f3f3f3;
+	/* letter-spacing: -2.5px; */
+	color: indianred;
+	padding: 5px 5px 5px 0px;
+	left: -2px;
+	overflow: hidden;
+	/* z-index: -1; */
+	/* margin-left: -2; */
+}
+
+section {
+	width: 75%;
+}
+
+aside {
+	z-index: -2;
+	position: fixed;
+	display: inline;
+	background-color: #0f111a;
+	color: #f3f3f3;
+	font-family: sans-serif;
+	/* text-align: right; */
+	width: 25%;
+	height: 100%;
+	right: 0px;
+	top: 10%;
+	padding: 3%;
+}
